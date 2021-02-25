@@ -1,0 +1,30 @@
+@import './common.scss';
+
+#goodsList {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    li {
+      list-style: none;
+      font-size: 12px;
+      width: 312px;
+      height: 510px;
+      margin-bottom: 24px;
+      img {
+        width: 312px;
+        vertical-align: middle;
+        height: 470px;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      p {
+        font-weight: bold;
+        line-height: 12px;
+      }
+    }
+  }
+}
